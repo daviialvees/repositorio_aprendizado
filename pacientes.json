@@ -1,0 +1,84 @@
+[
+  {
+    "id_paciente": 101,
+    "nome": "Ana Souza",
+    "data_nascimento": "1985-03-12",
+    "sexo": "Feminino",
+    "documentos": {
+      "cpf": "12345678901",
+      "rg": "MG1234567"
+    },
+    "endereco": {
+      "linha": {
+        "linha1": "Rua das Flores, 123",
+        "linha2": "Apto 45",
+        "linha3": "Bloco B"
+      },
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30140-120"
+    },
+    "contatos": [
+      {
+        "tipo": "telefone",
+        "valor": "31988887777"
+      },
+      {
+        "tipo": "email",
+        "valor": "ana.souza@email.com"
+      }
+    ],
+    "historico_medico": [
+      {
+        "condicao": "Hipertensão",
+        "diagnostico_ano": 2015,
+        "medicamentos": [
+          {"nome": "Losartana", "dosagem": "50mg"},
+          {"nome": "AAS", "dosagem": "100mg"}
+        ]
+      }
+    ]
+  },
+  {
+    "id_paciente": 102,
+    "nome": "Carlos Silva",
+    "data_nascimento": "1978-07-22",
+    "sexo": "Masculino",
+    "documentos": {
+      "cpf": "98765432100",
+      "rg": "SP9876543"
+    },
+    "endereco": {
+      "linha": {
+        "linha1": "Av. Paulista, 2000",
+        "linha2": "Sala 300",
+        "linha3": null
+      },
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01310-200"
+    },
+    "contatos": [
+      {
+        "tipo": "telefone",
+        "valor": "11977776666"
+      }
+    ],
+    "historico_medico": [
+      {
+        "condicao": "Diabetes Tipo 2",
+        "diagnostico_ano": 2010,
+        "medicamentos": [
+          {"nome": "Metformina", "dosagem": "850mg"}
+        ]
+      },
+      {
+        "condicao": "Colesterol Alto",
+        "diagnostico_ano": 2018,
+        "medicamentos": [
+          {"nome": "Sinvastatina", "dosagem": "20mg"}
+        ]
+      }
+    ]
+  }
+]

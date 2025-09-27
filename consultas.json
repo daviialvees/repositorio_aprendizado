@@ -1,0 +1,43 @@
+[
+  {
+    "id_consulta": "C1001",
+    "id_paciente": 101,
+    "data_consulta": "2025-02-15",
+    "especialidade": "Cardiologia",
+    "profissional": {
+      "nome": "Dr. João Mendes",
+      "crm": "MG12345"
+    },
+    "procedimentos": [
+      {"descricao": "Eletrocardiograma", "codigo": "ECO123"},
+      {"descricao": "Exame de sangue", "codigo": "SNG456"}
+    ]
+  },
+  {
+    "id_consulta": "C1002",
+    "id_paciente": 101,
+    "data_consulta": "2025-05-20",
+    "especialidade": "Clínico Geral",
+    "profissional": {
+      "nome": "Dra. Beatriz Lima",
+      "crm": "MG67890"
+    },
+    "procedimentos": [
+      {"descricao": "Check-up anual", "codigo": "CHK001"}
+    ]
+  },
+  {
+    "id_consulta": "C2001",
+    "id_paciente": 102,
+    "data_consulta": "2025-01-30",
+    "especialidade": "Endocrinologia",
+    "profissional": {
+      "nome": "Dr. Paulo Andrade",
+      "crm": "SP11223"
+    },
+    "procedimentos": [
+      {"descricao": "Hemoglobina Glicada", "codigo": "HBA1C01"},
+      {"descricao": "Ultrassom abdominal", "codigo": "ULT789"}
+    ]
+  }
+]
